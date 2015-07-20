@@ -38,6 +38,6 @@ ATGCACGGCACTTGCCTCAGCGGTCTATACCCTGTGCCATTTACCCATAACGCCCATCATTATCCACATTTTGATATCTA
 ### First assignment
 Try to write some pseudocode for this script. What are the basic steps this code will have to do? You don't need to know any particulars about the bash programming language to do this. Just write your pseudocode in plain english like so:
 
-Step 1) Read in command line arguments
+Step 1) Read in command line arguments   
 Step 2) Set a variable for each transcription factor family given in the command line
 etc, etc...
