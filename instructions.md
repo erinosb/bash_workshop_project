@@ -41,3 +41,24 @@ Try to write some pseudocode for this script. What are the basic steps this code
 Step 1) Read in command line arguments   
 Step 2) Set a variable for each transcription factor family given in the command line
 etc, etc...
+
+### Second assignment
+
+Using your pseudocode, try to write code for one or two steps in your pseudocode. 
+Write down what problems you encounter and what steps you expect the challenges to be.
+
+### Next step
+
+Try to put together a full working script. This can either contain all the commands you want to call. Alternatively, you can write a number of small scripts, one for each step. Then you can write a master script that calls each small script in turn.
+
+### Extra credit
+
+Learn about [CASE online](http://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php). Try to use CASE to modify your scripts and allow for your script to be called in different orders.
+
+>**generateFactorFastas.sh -organism** *\<organism\>* **-families** *\<TFfamily1\>,[TFfamily2],[TFfamily3]*
+
+OR
+
+>**generateFactorFastas.sh -families** *\<TFfamily1\>,[TFfamily2],[TFfamily3]* **-organism** *\<organism\>* 
+
+
