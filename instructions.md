@@ -99,8 +99,10 @@ As your lab gets bigger, you can imagine it will be preferable to automate this 
 
 Since you're taking a bash scripting class, you decide to write a script that will allow a user to pick an organism, pick a gene family (or families) and then receive as output a series of fasta files, one for each transcription factor family. Each file will contain the sequence of each gene in that family (in the organism selected).
 
+You decide to write a script called generateFactorFastas.sh that anyone in your lab can use to automate this process.
 
 
+## Write a script
 
 Write a script called generateFactorFastas.sh
 
@@ -116,6 +118,13 @@ The following parts of the command line will indicate the following things:
 + **generateFactorFastas.sh** the name of the script.
   + **-organism** a flag that is currently static but that later we will be able to alter to different organisms.
   + **-families** a flag that accepts a comma-separated list of different transcription factor families.
+
+
+*Note 08-13-15  It may be a little challenging to write the script using the flatted arguments. If you want to start easier, just call the script like so:*
+
+>**generateFactorFastas.sh yeast** *\<TFfamily1\>,[TFfamily2],[TFfamily3]*
+
+*In this case, $1 will be equal to yeast and $2 will signify the list of transcription factor families the user specifies*
 
 ### Input:  
 + Scerevisiae_TFs.csv file
